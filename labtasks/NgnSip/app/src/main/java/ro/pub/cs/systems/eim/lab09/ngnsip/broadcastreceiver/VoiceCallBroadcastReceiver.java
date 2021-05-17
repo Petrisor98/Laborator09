@@ -20,8 +20,8 @@ import ro.pub.cs.systems.eim.lab09.ngnsip.general.Constants;
 
 public class VoiceCallBroadcastReceiver extends BroadcastReceiver {
 
-    private EditText SIPAddressEditText = null;
-    private TextView callStatusTextView = null;
+    private EditText SIPAddressEditText;
+    private TextView callStatusTextView;
 
     public VoiceCallBroadcastReceiver(EditText SIPAddressEditText, TextView callStatusTextView) {
         this.SIPAddressEditText = SIPAddressEditText;
@@ -82,7 +82,5 @@ public class VoiceCallBroadcastReceiver extends BroadcastReceiver {
                     break;
             }
         }
-
     }
-
 }

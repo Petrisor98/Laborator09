@@ -61,7 +61,6 @@ public class RegistrationBroadcastReceiver extends BroadcastReceiver {
                     Log.d(Constants.TAG, "Trying to unregister...");
                     break;
             }
-
         }
     }
 
